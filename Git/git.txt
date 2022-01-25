@@ -1,0 +1,112 @@
+1) Github ssh key setup tutorial in bangla  Link :
+https://www.youtube.com/watch?v=5ZxJfrH56mc
+
+2) Tutrial Link :
+https://www.youtube.com/watch?v=4KdGgGsIDeA
+-------------------------------------------------
+
+1)
+This comment use local repository track folder create( .git  ) in my work dir .
+or Initialized empty Git repository in  work dir .
+
+$ git init
+
+2.1) If we want to every project identity  will be same like mahmudhossain582@gmail.com &  mahmudhossain .
+Run it -->
+
+$ git config --global user.name "mahmudhossain"
+$ git config --global user.email "mahmudhossain582@gmail.com"
+
+
+2.2)or If we want to diffrent project identity  will be diffrent like mahmudhossain582@gmail.com &  mahmudhossain .
+Run it -->
+
+$ git config user.name "mahmudhossain"
+$ git config user.email "mahmudhossain582@gmail.com"
+
+
+
+3)If we want to Which email & user name added already in git.To see that 
+Run it -->
+$ git config --list
+
+4) Display clear 
+Run it -->
+clear
+
+5) Unstaged file show   [ untrack file ]
+Run it -->
+$ git status
+
+6.1)  Unstaged Changes to Staged Changed( will Commit)  [track file ]
+Run it -->
+one by one file stage 
+$ git add cold.txt
+
+6.2)All file stage 
+$ git add  .
+or 
+$ git add --all
+
+7.1) Commit Long way :
+Run it -->
+$ git commit
+open other cmd page 
+Type from keyboard i
+Write your comment 
+Enter Esc
+Type :X
+Enter press
+
+7.2) Commit short way 
+Run it -->  Write your comment in  "  "
+$ git commit -m "kamal added"
+
+
+8) All Commit show 
+Run it -->
+$ git log
+8.1) All commit show short line 
+Run it -->
+$ git log --oneline
+
+
+9) If any file update Follow 6 & 7 step (add & commit)
+
+10) Version change 
+Run it --> 384056c It is version number .
+$ git checkout 384056c 
+
+then Switched to branch 'master'
+Run it -->
+$ git checkout master
+
+11) Difference Last stage code to 1st stage code ( Remove & Update code show)
+Run it -->
+$ git diff
+
+11)  Which version update which code show 
+Run it -->     f1dbc4c <--Commit number or version number
+$ git show f1dbc4c
+
+
+
+--------------------------------- Local repository connect to github  -----------------
+
+git remote add origin git@github.com:Mahmud582/test1.git
+git branch -M main
+git push -u origin main
+
+
+
+-----------------------------------------  SSH key Generate  -------------
+1. ssh-keygen -t rsa -b 4096 -C "email"
+2. eval $(ssh-agent -s)
+3. ssh-add ~/.ssh/id_rsa
+3. clip <~/.ssh/id_rsa.pubr
+
+
+
+
+
+ 
