@@ -106,6 +106,37 @@ git push -u origin main
 3. clip <~/.ssh/id_rsa.pub
 
 
+___________________________________________ Branching ____________________________________________
+
+Master( Coffee ) ----------------------- (V 0.1 ) -----(V 0.2)-------------(Master)
+Branch (Ice ) ----------------------------.^
+Branch (Chocolate) ------------------------------------>^
+
+
+                   _________________________ Git Concept ___________________________
+__________________________________________________________________________________________________________
+                                      Local                                      | Remote (GitHub,GitLab) |             
+                                                                                 |                        |
+_________________________________________________________________________________|________________________|
+Work Directory                    Staging Area               Local Repository    |     Remote Repository  |
+---------------------------------------------------------------------------------|------------------------|
+    .---------->   git add ---------->                                           |                        |
+                                      .-------- git commit ------->              |                        |
+                                                                   .--------- git push -------->
+
+                                                                   <----------git fatch---------.
+    <---------------------------------git clone or git pull-------------------------------------.
+                                                                                                   
+       |
+__________________________________________________________________________________________________________|
+
+Difference Between ( Work Directory & Staging Area ) ---------->  git diff
+
+Difference Between ( Work Directory & Local Repository ) -------->  git diff HEAD
+Changes code add   ( Work Directory & Local Repository )  ------->  git merge
+Local Repository to back  Work Directory  -----------------------> git checkout
+
+
 
 
 
