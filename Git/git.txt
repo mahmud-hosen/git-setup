@@ -130,11 +130,20 @@ Work Directory                    Staging Area               Local Repository   
        |
 __________________________________________________________________________________________________________|
 
-Difference Between ( Work Directory & Staging Area ) ---------->  git diff
+Difference Between ( Work Directory & Staging Area ) ---------->  
+  git diff            ( Work Directory & before Staging Area ) 
+  git diff --staged   ( Work Directory &  Staging Area )
+
+
+
+
 
 Difference Between ( Work Directory & Local Repository ) -------->  git diff HEAD
 Changes code add   ( Work Directory & Local Repository )  ------->  git merge
 Local Repository to back  Work Directory  -----------------------> git checkout
+
+
+
 
 
 
