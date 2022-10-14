@@ -1,4 +1,2 @@
 Line one
 
-
-Line two
