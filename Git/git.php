@@ -1,5 +1,5 @@
 <?php
-1) Github ssh key setup tutorial in bangla  Link :
+1) Github ssh key setup tutorial in bangla  Link:
 https://www.youtube.com/watch?v=5ZxJfrH56mc
 
 2) Tutrial Link :
