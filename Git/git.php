@@ -146,6 +146,16 @@ Difference Between ( Work Directory & Local Repository ) -------->  git diff HEA
 Changes code add   ( Work Directory & Local Repository )  ------->  git merge
 Local Repository to back  Work Directory  -----------------------> git checkout
 
+# What is "origin" or Why we use "Origin" with git command ?
+Ans:
+  "origin" is a default name given to the remote repository from which a project was cloned or to which it is linked.  "origin" is a  alias for the main-remote-repository-link( https://github.com/mahmud-hosen/git-setup ) in Git
+
+  Note: 'origin' is use just for instead of main-remote-repository-link
+
+Example: 
+    Both Command Same: 
+      1) git push origin 'branch-name'
+      2) git push https://github.com/mahmud-hosen/git-setup 'branch-name'
 
 
 
