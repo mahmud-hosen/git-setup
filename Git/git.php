@@ -133,7 +133,7 @@ Work Directory                    Staging Area               Local Repository   
                                                                    <----------git fatch---------.
     <---------------------------------git clone or git pull-------------------------------------.
                                                                                                    
-       |
+    <------------- git diff --------->                                                   |
 __________________________________________________________________________________________________________|
 
 Difference Between ( Work Directory & Staging Area ) ---------->  
